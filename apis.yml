@@ -1,0 +1,68 @@
+aid: cloudflare-com
+name: Cloudflare.com
+description: >-
+  cloudflare-com is an alias profile for Cloudflare. The canonical company
+  profile lives at the cloudflare repository in the API Evangelist Network;
+  this entry exists so that the ".com" form of the brand resolves into the
+  same canonical record. Cloudflare's developer surface includes a single
+  unified REST API at api.cloudflare.com covering DNS, zones, SSL/TLS,
+  Workers, KV, Durable Objects, Queues, R2, Pages, Stream, Email Routing,
+  Zero Trust, WAF, Magic Transit, Spectrum, Load Balancing, Analytics, and
+  Account Management. Authentication is via API tokens with scoped
+  permissions or legacy global API keys.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/cloudflare-com/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-04-25'
+specificationVersion: '0.19'
+x-type: company
+x-alias-of: cloudflare
+tags:
+  - Alias
+  - Application Services
+  - CDN
+  - DNS
+  - Edge Computing
+  - Email
+  - Network
+  - Security
+  - Workers
+  - Zero Trust
+apis:
+  - aid: cloudflare-com:canonical
+    name: Cloudflare API (canonical)
+    tags:
+      - Canonical
+      - REST
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://api.cloudflare.com/client/v4
+    humanURL: https://developers.cloudflare.com/api/
+    properties:
+      - url: https://developers.cloudflare.com/api/
+        type: Documentation
+      - url: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/apis.yml
+        type: Canonical APIs.json
+    description: >-
+      The canonical Cloudflare REST API at https://api.cloudflare.com/client/v4
+      covering account management, DNS and zones, SSL/TLS certificates, WAF
+      and firewall rules, Workers and KV, R2 object storage, Pages, Stream,
+      Email Routing, Zero Trust Access, Magic Transit, Spectrum, Load
+      Balancing, Page Rules, Logpush, and Analytics. Token authentication.
+      See the canonical cloudflare repository for the full profile.
+common:
+  - type: Website
+    url: https://www.cloudflare.com/
+  - type: Documentation
+    url: https://developers.cloudflare.com/
+  - type: API Reference
+    url: https://developers.cloudflare.com/api/
+  - type: Status
+    url: https://www.cloudflarestatus.com/
+  - type: Privacy Policy
+    url: https://www.cloudflare.com/privacypolicy/
+  - type: Canonical
+    url: https://github.com/api-evangelist/cloudflare
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com
