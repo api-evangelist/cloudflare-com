@@ -51,6 +51,8 @@ apis:
       Balancing, Page Rules, Logpush, and Analytics. Token authentication.
       See the canonical cloudflare repository for the full profile.
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cloudflare
   - type: Website
     url: https://www.cloudflare.com/
   - type: Documentation
