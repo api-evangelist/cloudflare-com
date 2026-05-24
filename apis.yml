@@ -65,6 +65,8 @@ common:
     url: https://www.cloudflare.com/privacypolicy/
   - type: Canonical
     url: https://github.com/api-evangelist/cloudflare
+  - type: LLMsTxt
+    url: https://developers.cloudflare.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kinlane@gmail.com
