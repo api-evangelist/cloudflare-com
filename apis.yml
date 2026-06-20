@@ -11,7 +11,7 @@ description: >-
   Account Management. Authentication is via API tokens with scoped
   permissions or legacy global API keys.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cloudflare-com/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-25'
@@ -35,7 +35,7 @@ apis:
     tags:
       - Canonical
       - REST
-    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     baseURL: https://api.cloudflare.com/client/v4
     humanURL: https://developers.cloudflare.com/api/
     properties:
