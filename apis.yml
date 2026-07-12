@@ -51,6 +51,10 @@ apis:
       Balancing, Page Rules, Logpush, and Analytics. Token authentication.
       See the canonical cloudflare repository for the full profile.
 common:
+  - type: VulnerabilityDisclosure
+    url: security/cloudflare-com-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cloudflare-com-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/cloudflare
   - type: Website
@@ -67,6 +71,8 @@ common:
     url: https://github.com/api-evangelist/cloudflare
   - type: LlmsText
     url: https://developers.cloudflare.com/llms.txt
+  - url: https://blog.cloudflare.com/rss/
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kinlane@gmail.com
